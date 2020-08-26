@@ -25,8 +25,8 @@ def using_shift (my_favorite_cities)
   im_so_over_this_city = my_favorite_cities.shift
 end
 
-def using_shift_with_args (ice_cream_brands, string)
-  ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  brands_removed = ice_cream_brands.shift(2)
-  brands_removed
+def using_shift_with_args (array)
+  ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
+  ice_cream_brands.shift(2)
+ 
 end
